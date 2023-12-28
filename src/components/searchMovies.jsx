@@ -36,7 +36,7 @@ export default function SearchMovies() {
           className="input"
           type="text"
           name="query"
-          placeholder="i.e. Jurassic Park"
+          placeholder="i.e. The Matrix"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           aria-label="Search for a movie"
