@@ -16,7 +16,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: #333;
-  text-shadow: 2px 2px 2px rgba(210, 155, 252, 0.6);
 }
 
 p {
@@ -42,6 +41,7 @@ small {
 .title {
   font-size: 4.4rem;
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(210, 155, 252, 0.6);
 }
 
 .form {
@@ -52,6 +52,8 @@ small {
   font-size: 1.2rem;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px rgba(30, 1, 52, 0.6);
 }
 
 .input {
@@ -92,7 +94,7 @@ small {
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   margin-bottom: 2rem;
-  background-color: white;
+  background-color: rgb(242, 228, 255);
   flex: 1; /* Allows cards to grow */
   margin: 1rem; /* Spacing between cards */
   max-width: calc(100% - 2rem); /* Adjust the width to fit two cards */
