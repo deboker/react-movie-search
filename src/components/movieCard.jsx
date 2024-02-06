@@ -14,6 +14,11 @@ export default function MovieCard({ movie }) {
           <small>RELEASE DATE: {movie.release_date}</small>
         </p>
         <p>
+          <small className="language">
+            LANGUAGE: {movie.original_language}
+          </small>
+        </p>
+        <p>
           <small>RATING: {movie.vote_average}</small>
         </p>
         <p className="card--desc">{movie.overview}</p>
