@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function MovieCard({ movie }) {
+  console.log(movie);
   return (
     <div className="card">
       <img
@@ -12,6 +13,11 @@ export default function MovieCard({ movie }) {
         <h3 className="card--title">{movie.title}</h3>
         <p>
           <small>RELEASE DATE: {movie.release_date}</small>
+        </p>
+        <p>
+          <small className="language">
+            LANGUAGE: {movie.original_language}
+          </small>
         </p>
         <p>
           <small>RATING: {movie.vote_average}</small>

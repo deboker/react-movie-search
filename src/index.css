@@ -118,6 +118,10 @@ small {
   background-color: white;
 }
 
+.language {
+  text-transform: uppercase;
+}
+
 @media (min-width: 786px) {
   .form {
     grid-template-columns: auto 1fr auto;
