@@ -12,8 +12,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 244, 244);
+  background-image: url(assets/quaid-lagan-wSkfttEaBw8-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   color: #333;
+  text-shadow: 2px 2px 2px rgba(210, 155, 252, 0.6);
 }
 
 p {
@@ -58,6 +61,7 @@ small {
   border-radius: 20px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
+  box-shadow: 2px 2px 2px rgba(210, 155, 252, 0.6);
 }
 
 .button {
@@ -69,6 +73,7 @@ small {
   font-size: 1.4rem;
   cursor: pointer;
   transition: background-color 250ms;
+  box-shadow: 2px 2px 2px rgba(210, 155, 252, 0.6);
 }
 
 .button:hover {
